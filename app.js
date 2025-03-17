@@ -50,11 +50,5 @@ function sortearAmigo(){
     let resultado = document.getElementById('resultado');
     resultado.innerHTML = `El amigo seleccionado es: ${seleccionado}`;
 
-    
     mostrarAmigos();
-
-    //Si ya no quedan amigos en la lista, mostraruna alerta
-    if(amigos.length === 0){
-        alert('Ya no quedan amigos en la lista');
-    }
 }
